@@ -1,0 +1,10 @@
+@import "./color.scss";
+.form-group {
+  margin-bottom: 1rem;
+  .invalid {
+    color: $color-secondary-red;
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+

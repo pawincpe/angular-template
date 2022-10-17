@@ -1,0 +1,76 @@
+@import './color.scss';
+button {
+  border: none;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+
+  &[disabled] {
+    opacity: 0.5;
+  }
+
+  &.primary {
+    background-color: $color-primary-green;
+    color: $color-base-white;
+    border: none;
+
+    &.outline {
+      border: 1px solid $color-primary-green;
+      background-color: transparent;
+      color: $color-primary-green;
+    }
+  }
+
+  &.secondary {
+    background-color: $color-secondary-red;
+    color: $color-base-white;
+    border: none;
+
+    &.outline {
+      border: 1px solid $color-secondary-red;
+      background-color: transparent;
+      color: $color-secondary-red;
+    }
+  }
+
+  &.text {
+    border:none;
+    background-color: transparent;
+    color: $color-secondary-red;
+    text-decoration: underline;
+
+    &.green {
+      color: $color-primary-green;
+    }
+  }
+}
+
+.button-container {
+  display: flex;
+  padding: 2px;
+
+  & > button {
+    margin-right: 16px;
+    margin-bottom: 4px;
+  }
+
+  & > button:last-of-type {
+    margin-right: 0;
+  }
+
+  & > button:hover {
+    opacity: 0.8;
+    &[disabled] {
+      opacity: 0.5;
+    }
+  }
+}
+
+
+button img{
+  padding-right: 5px;
+  height: 20px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}

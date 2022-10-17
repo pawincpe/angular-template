@@ -1,0 +1,56 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+// @import "ag-grid-community/dist/styles/ag-grid.css";
+// @import "ag-grid-community/dist/styles/ag-theme-balham.css";
+// @import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+// @import "~@ng-select/ng-select/themes/default.theme.css";
+
+
+@import "./generic.scss";
+@import "./color.scss";
+// @import "./button.scss";
+// @import "./text.scss";
+// @import "./checkbox.scss";
+// @import "./radio.scss";
+// @import "./calendar.scss";
+// @import "./input.scss";
+// @import "./form.scss";
+// @import "./modal.scss";
+// @import "./grid.scss";
+// @import "./treeview.scss";
+// @import "./icon.scss";
+// @import "./collapse.scss";
+// @import "./dropdown.scss";
+// @import "./toastr-notification.scss";
+
+
+
+.app {
+    min-height : 100vh;
+    position   : relative;
+    font-family: 'Kanit', sans-serif;
+    color      : $color-base-black;
+    font-weight: 300;
+    font-size  : 14px;
+  
+    .font-kanit {
+      font-family: kanit;
+    }
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100.0vh;
+  width: 99vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.icon-default:hover{
+  filter: invert(39%) sepia(64%) saturate(429%) hue-rotate(81deg) brightness(93%) contrast(84%);
+}
+
+.icon-delete:hover{
+  filter: invert(11%) sepia(79%) saturate(5223%) hue-rotate(1deg) brightness(89%) contrast(118%);
+}

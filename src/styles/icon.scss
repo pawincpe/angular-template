@@ -1,0 +1,84 @@
+.icon-add{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/add.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-view{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/view.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-edit{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/edit.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-bin{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/bin.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-delete{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/delete.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-quality{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/award.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-refresh{
+  width: 22px;
+  height: 30px;
+  background-image: url('~/assets/icon/refresh.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: inline-block;
+  cursor: pointer
+}
+
+.icon-green:hover{
+  filter: invert(39%) sepia(64%) saturate(429%) hue-rotate(81deg) brightness(93%) contrast(84%);
+}
+
+.icon-red:hover{
+  filter: invert(11%) sepia(79%) saturate(5223%) hue-rotate(1deg) brightness(89%) contrast(118%);
+}

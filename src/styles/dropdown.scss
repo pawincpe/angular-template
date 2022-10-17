@@ -1,0 +1,36 @@
+@import './color.scss';
+
+.ng-select.form-dropdown {
+  border-radius: 0.25rem;
+
+}
+.ng-select.form-dropdown.ng-select-disabled>.ng-select-container {
+  background-color: $color-form-disable;
+}
+
+.ng-select.form-dropdown .ng-select-container  {            
+  border-radius: 0.25rem;
+}
+
+.ng-select.form-dropdown .ng-has-value  {            
+  font-weight: 500;
+}
+
+.ng-select.form-dropdown .ng-clear-wrapper .ng-clear {
+  font-size: 24px;
+}
+
+.ng-select.form-dropdown .ng-select-container {
+  height: 38px;
+}
+
+
+.ng-select.form-dropdown.ng-select-multiple .ng-select-container .ng-value-container .ng-value {
+  background-color: $color-very-light-grey;
+  border: 1px solid #e6e6e6;
+  font-size: inherit;
+}
+
+.ng-select.form-dropdown.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-icon.right {
+  border-left: 1px solid #e6e6e6;
+}

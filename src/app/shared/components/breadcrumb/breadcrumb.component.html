@@ -1,0 +1,9 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item" *ngFor="let item of items; let i = index" [class.active]="i===items.length-1">
+    <a [routerLink]="item.path" *ngIf="item.path">
+      {{ item.name }}
+    </a>
+    <span  [ngClass]="i > 0? 'font-bold' : ''" *ngIf="!item.path" >{{ item.name  }}</span>
+  </li>
+</ol>
+  

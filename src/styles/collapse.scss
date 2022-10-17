@@ -1,0 +1,33 @@
+@import "./color.scss";
+
+.group-collapse {
+  margin-top: 20px;
+  position: relative;
+  padding: 30px 20px;
+  border: 1px solid $color-primary-green;
+  padding: 20px;
+  border-radius: 8px;
+
+  .collapse-header {
+    position: absolute;
+    top: -18px;
+    left: 8px;
+    height: 30px;
+    padding: 0 7px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    background-color: $color-base-white;
+    color: $color-primary-green;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .collapse-toggle {
+    cursor: pointer;
+    color: $color-base-dark-grey;
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+}

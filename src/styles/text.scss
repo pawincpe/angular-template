@@ -1,0 +1,177 @@
+@import './color.scss';
+
+  h1 {
+    color      : $color-base-black;
+    font-weight: 600;
+    font-size  : 40px;
+  }
+
+  h2 {
+    color      : $color-base-black;
+    font-weight: 600;
+    font-size  : 30px;
+  }
+
+  h3 {
+    color      : $color-base-black;
+    font-weight: 600;
+    font-size  : 22px;
+  }
+
+  .table-header {
+    color      : $color-base-white;
+    font-weight: 600;
+    font-size  : 20px;
+  }
+
+  .disable{
+    color: $color-base-grey-disable;
+  }
+
+  .darkgrey {
+    color: $color-base-dark-grey;
+  }
+
+  .darkgrey.disable {
+    color: $color-base-grey-disable;
+  }
+
+  .darkgrey-18 {
+    color    : $color-base-dark-grey;
+    font-size: 18px;
+  }
+
+  .darkgrey-18.disable {
+    color    : $color-base-grey-disable;
+    font-size: 18px;
+  }
+
+  .darkgrey-14 {
+    color    : $color-base-dark-grey;
+    font-size: 14px;
+  }
+  .darkgrey-14.disable {
+    color    : $color-base-grey-disable;
+    font-size: 14px;
+  }
+
+  .darkgrey-12 {
+    color    : $color-base-dark-grey;
+    font-size: 12px;
+  }
+  .darkgrey-12.disable {
+    color    : $color-base-grey-disable;
+    font-size: 12px;
+  }
+
+  .black-24 {
+    color    : $color-base-black;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .black-18 {
+    color    : $color-base-black;
+    font-size: 18px;
+  }
+
+  .black-18.disable{
+    color: $color-base-grey-disable;
+    font-size: 18px;
+  }
+
+  .black-17 {
+    color    : $color-base-black;
+    font-size: 17px;
+  }
+
+  .black-17.disable{
+    color: $color-base-grey-disable;
+    font-size: 17px;
+  }
+
+  .black-16 {
+    color    : $color-base-black;
+    font-size: 16px;
+  }
+
+  .black-16.disable {
+    color    : $color-base-grey-disable;
+    font-size: 16px;
+  }
+
+  .black-14 {
+    color    : $color-base-black;
+    font-size: 14px;
+  }
+
+  .black-14.disable{
+    color: $color-base-grey-disable;
+    font-size: 14px;
+  }
+
+  .black-12 {
+    color    : $color-base-black;
+    font-size: 12px;
+  }
+
+  .black-12.disable{
+    color: $color-base-grey-disable;
+    font-size: 12px;
+  }
+
+  .white-18 {
+    color    : $color-base-white;
+    font-size: 18px;
+  }
+
+  .white-16 {
+    color    : $color-base-white;
+    font-size: 16px;
+  }
+
+  .white-14 {
+    color    : $color-base-white;
+    font-size: 14px;
+  }
+  .white-12 {
+    color    : $color-base-white;
+    font-size: 12px;
+  }
+
+  .font-green {
+    color : $color-primary-green
+  }
+
+  .font-red {
+    color : $color-secondary-red
+  }
+
+  .font-orange {
+    color : $color-secondary-orange
+  }
+
+  .text-link {
+    text-decoration: underline;
+    color: $color-secondary-blue;
+    cursor: pointer;
+  }
+
+  // Link
+  a {
+    color          : $color-primary-green;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-primary-green;
+    }
+
+    &.file {
+      color: $color-secondary-blue;
+
+      &:hover {
+        color: $color-secondary-blue;
+      }
+    }
+  }
+

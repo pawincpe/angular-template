@@ -1,0 +1,45 @@
+@import "/src/styles/color.scss";
+
+.breadcrumb {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size    : 14px;
+  color        : $color-base-black;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  background-color: $color-base-white;
+  
+  li {
+    margin-left: 10px;
+  }
+
+  li:nth-of-type(1)::before {
+    content: "";
+    padding-right: 0px;
+  }
+
+  li::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: var(--bs-breadcrumb-divider, "/");
+  }
+}
+
+
+span{
+  color: $color-base-black;
+}
+
+a {
+  text-decoration: none;
+  color: $color-secondary-blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}

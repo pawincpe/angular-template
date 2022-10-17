@@ -1,0 +1,59 @@
+.input-calendar {
+    display: contents;
+    margin-bottom: 0px;
+    align-items: center;
+    z-index: 9999
+  
+    label {
+      font-size: 16px;
+      color: $color-base-dark-grey;
+    }
+
+    min-width: 250px;
+    border-right: none;
+
+    .input-group-append{
+      display: flex;
+    }
+    .input-group-text {
+      cursor: pointer;
+      &.disabled , &.readonly{
+        background-color: $color-base-light-grey;
+      }
+    }
+
+    input {
+      font-weight: 300px;
+      &[disabled], &[readonly]  {
+        background-color: $color-base-light-grey;
+      }
+    }
+  
+    .form-input-icon {
+      width:24px;
+      height:24px;
+      opacity: 1;
+      &[disabled] {
+        opacity: 0.5;
+      }
+    }
+  
+    ::placeholder{
+      color: $color-base-grey-disable;
+    }
+}
+
+.theme-green .bs-datepicker-head{
+    background-color: $color-primary-green;
+  }
+  .theme-green .bs-datepicker-body table td span.selected,
+   .theme-green .bs-datepicker-body table td.selected span,
+    .theme-green .bs-datepicker-body table td span[class*="select-"]:after,
+     .theme-green .bs-datepicker-body table td[class*="select-"] span:after
+  {
+    background-color:$color-primary-green;
+  }
+
+bs-datepicker-container, bs-daterangepicker-container {
+  z-index: 9999;
+}
